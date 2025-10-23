@@ -4,7 +4,7 @@
 
 This project implements a **custom WordPress solution** designed to streamline workflows for managing website projects. It introduces a **“Website Projects”** custom post type integrated with **Advanced Custom Fields (ACF)** and **automated webhook notifications**.
 
-When a project is published, the system automatically sends structured data (client name, project status, and title) to a configured webhook endpoint — ensuring **real-time synchronization** with connected systems and eliminating repetitive manual data entry.
+When a project is published, the system automatically sends structured data (client name, project status, and title) to a test webhook endpoint.
 
 ---
 
