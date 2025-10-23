@@ -157,19 +157,19 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 	}
 endif;
 
-	/**
-	 * Smart WordPress Functionality - CPT + Webhook
-	 */
+/**
+ * Smart WordPress Functionality - CPT + Webhook
+ */
 
-	add_action('init', function () {
-		register_post_type('website_project', [
-			'label' => 'Website Projects',
-			'public' => true,
-			'show_in_rest' => true,
-			'supports' => ['title', 'editor', 'custom-fields'],
-			'menu_icon' => 'dashicons-admin-site-alt3'
-		]);
-	});
+add_action('init', function () {
+	register_post_type('website_project', [
+		'label' => 'Website Projects',
+		'public' => true,
+		'show_in_rest' => true,
+		'supports' => ['title', 'editor', 'custom-fields'],
+		'menu_icon' => 'dashicons-admin-site-alt3'
+	]);
+});
 
 
 /**
