@@ -92,6 +92,8 @@ add_action('init', function () {
 
 This registers a new **“Website Projects”** custom post type that appears in the WordPress Admin sidebar.
 
+<img width="304" height="697" alt="Screenshot 2025-10-23 at 4 56 08 PM" src="https://github.com/user-attachments/assets/54357e03-5e6f-435a-982f-defc2e526376" />
+
 ---
 
 ### 4️⃣ Create Custom Fields with ACF
